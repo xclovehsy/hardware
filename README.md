@@ -1,2 +1,3 @@
-# hardware_project
 # hardware
+重庆大学计算机学院-2022年mips指令集硬件综合设计
+由徐聪、于轩同学完成
