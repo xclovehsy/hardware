@@ -1,0 +1,64 @@
+# compile verilog/system verilog design source files
+<<<<<<< HEAD
+verilog xil_defaultlib  --include "../../../../project_1.srcs/sources_1/imports/hardware_project/vivado/lab4/rtl/myCPU/utils" \
+"../../../../project_1.srcs/data_ram/ip/data_ram/sim/data_ram.v" \
+"../../../../project_1.srcs/inst_ram/ip/inst_ram/sim/inst_ram.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/adder.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/alu.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/aludec.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/controller.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/datapath.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/eqcmp.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/flopenr.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/flopenrc.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/flopr.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/floprc.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/hazard.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/vivado/lab4/rtl/myCPU/utils/instdec.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/maindec.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/mips.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/mux2.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/mux3.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/vivado/lab4/rtl/myCPU/mycpu_top.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/pc.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/regfile.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/signext.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/step_into_mips/lab_4/rtl/sl2.v" \
+"../../../../project_1.srcs/sources_1/imports/hardware_project/vivado/lab4/rtl/top.v" \
+=======
+verilog xil_defaultlib  --include "../../../../project_1.srcs/sources_1/imports/lab4/rtl/myCPU/utils" \
+"../../../../project_1.srcs/data_ram/ip/data_ram/sim/data_ram.v" \
+"../../../../project_1.srcs/inst_ram/ip/inst_ram/sim/inst_ram.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/adder.v" \
+"../../../../project_1.srcs/sources_1/new/alu.sv" \
+"../../../../project_1.srcs/sources_1/imports/rtl/aludec.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/controller.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/datapath.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/eqcmp.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/flopenr.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/flopenrc.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/flopr.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/floprc.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/hazard.v" \
+"../../../../project_1.srcs/sources_1/new/hilo_reg.v" \
+"../../../../project_1.srcs/sources_1/imports/lab4/rtl/myCPU/utils/instdec.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/maindec.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/mips.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/mux2.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/mux3.v" \
+"../../../../project_1.srcs/sources_1/imports/lab4/rtl/myCPU/mycpu_top.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/pc.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/regfile.v" \
+"../../../../project_1.srcs/sources_1/new/signed_mult.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/signext.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/sl2.v" \
+"../../../../project_1.srcs/sources_1/imports/lab4/rtl/top.v" \
+"../../../../project_1.srcs/sources_1/new/unsigned_mult.v" \
+>>>>>>> da2b0dd963a0f4c07c08133c48869fa3bb87fc84
+"../../../../project_1.srcs/sim_1/imports/lab4/sim/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
+<webTalkData  fileName='usage_statistics_ext_xsim.xml'  majorVersion='1' minorVersion='0' timeStamp='Tue Dec 20 21:36:17 2022'>
+=======
+<webTalkData  fileName='usage_statistics_ext_xsim.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Dec 23 23:28:31 2022'>
+>>>>>>> da2b0dd963a0f4c07c08133c48869fa3bb87fc84
+<section name="__ROOT__" level="0" order="1" description="">
+ <section name="software_version_and_target_device" level="1" order="1" description="">
+  <keyValuePair key="beta" value="FALSE" description="" />
+  <keyValuePair key="build_version" value="2708876" description="" />
+<<<<<<< HEAD
+  <keyValuePair key="date_generated" value="Tue Dec 20 21:36:16 2022" description="" />
+  <keyValuePair key="os_platform" value="WIN64" description="" />
+  <keyValuePair key="product_version" value="XSIM v2019.2 (64-bit)" description="" />
+  <keyValuePair key="project_id" value="487c187e6bc74760aff3f9efe82821de" description="" />
+  <keyValuePair key="project_iteration" value="5" description="" />
+=======
+  <keyValuePair key="date_generated" value="Fri Dec 23 23:28:30 2022" description="" />
+  <keyValuePair key="os_platform" value="WIN64" description="" />
+  <keyValuePair key="product_version" value="XSIM v2019.2 (64-bit)" description="" />
+  <keyValuePair key="project_id" value="487c187e6bc74760aff3f9efe82821de" description="" />
+  <keyValuePair key="project_iteration" value="318" description="" />
+>>>>>>> da2b0dd963a0f4c07c08133c48869fa3bb87fc84
+  <keyValuePair key="random_id" value="bc9c76f9-75f7-4b6d-bff5-0f459458c12d" description="" />
+  <keyValuePair key="registration_id" value="bc9c76f9-75f7-4b6d-bff5-0f459458c12d" description="" />
+  <keyValuePair key="route_design" value="FALSE" description="" />
+  <keyValuePair key="target_device" value="not_applicable" description="" />
+  <keyValuePair key="target_family" value="not_applicable" description="" />
+  <keyValuePair key="target_package" value="not_applicable" description="" />
+  <keyValuePair key="target_speed" value="not_applicable" description="" />
+  <keyValuePair key="tool_flow" value="xsim_vivado" description="" />
+ </section>
+ <section name="user_environment" level="1" order="2" description="">
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz" description="" />
+  <keyValuePair key="cpu_speed" value="4200 MHz" description="" />
+  <keyValuePair key="os_name" value="Windows Server 2016 or Windows 10" description="" />
+  <keyValuePair key="os_release" value="major release  (build 9200)" description="" />
+  <keyValuePair key="system_ram" value="34.000 GB" description="" />
+  <keyValuePair key="total_processors" value="1" description="" />
+ </section>
+ <section name="vivado_usage" level="1" order="3" description="">
+ </section>
+ <section name="xsim" level="1" order="4" description="">
+  <section name="command_line_options" level="2" order="1" description="">
+<<<<<<< HEAD
+   <keyValuePair key="command" value="xsim" description="" />
+  </section>
+  <section name="usage" level="2" order="2" description="">
+   <keyValuePair key="iteration" value="2" description="" />
+   <keyValuePair key="runtime" value="1 us" description="" />
+   <keyValuePair key="simulation_memory" value="8120_KB" description="" />
+   <keyValuePair key="simulation_time" value="0.01_sec" description="" />
+   <keyValuePair key="trace_waveform" value="true" description="" />
+=======
+   <keyValuePair key="command" value="xelab" description="" />
+   <keyValuePair key="debug" value="typical" description="" />
+   <keyValuePair key="dpi_used" value="false" description="" />
+   <keyValuePair key="file_counter" value="30" description="" />
+   <keyValuePair key="gendll" value="false" description="" />
+   <keyValuePair key="hwcosim" value="false" description="" />
+   <keyValuePair key="sdfmodeling" value="false" description="" />
+   <keyValuePair key="vhdl2008" value="false" description="" />
+  </section>
+  <section name="usage" level="2" order="2" description="">
+   <keyValuePair key="compiler_memory" value="97080_KB" description="" />
+   <keyValuePair key="compiler_time" value="1.30_sec" description="" />
+   <keyValuePair key="simulation_image_code" value="350 KB" description="" />
+   <keyValuePair key="simulation_image_data" value="36 KB" description="" />
+   <keyValuePair key="total_instances" value="69" description="" />
+   <keyValuePair key="total_nets" value="0" description="" />
+   <keyValuePair key="total_processes" value="562" description="" />
+   <keyValuePair key="xilinx_hdl_libraries_used" value="secureip unimacro_ver unisims_ver " description="" />
+>>>>>>> da2b0dd963a0f4c07c08133c48869fa3bb87fc84
+  </section>
+ </section>
+</section>
+</webTalkData>
